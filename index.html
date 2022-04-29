@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Draw</title>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+
+    <div class="color">
+        <input type="color" class="color_input" id="color_picker"></div>  <!-- krasas poga -->
+        <input type="range" min="5" max="100" value="5" step="5" class="slider" id="width_slider">  <!-- zimesanas rika platuma slidne -->
+    </div>\
+
+    <div class="nav">
+        <button class="clear" id="clear_button">Clear</button>  <!-- izdzesanas poga -->
+        <button class="save" id="save_button">Save</button>  <!-- saglabasanas poga -->
+        <button class="undo" id="undo_button"></button>  <!-- atsauksanas poga -->
+    </div>\
+
+    <script src="main.js"></script>
+</body>
+</html>
